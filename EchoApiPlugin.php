@@ -2,6 +2,8 @@
 namespace Craft;
 
 class EchoApiPlugin extends BasePlugin {
+	protected $allowAnonymous = true;
+
 	public function getName() {
 		return Craft::t('Echo API');
 	}
