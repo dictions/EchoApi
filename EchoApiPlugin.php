@@ -22,6 +22,10 @@ class EchoApiPlugin extends BasePlugin {
 		return 'http://monomono.studio';
 	}
 
+	public function getDocumentationUrl() {
+		return $this->getPluginUrl().'/blob/master/README.md';
+	}
+
 	public function getPluginUrl() {
 		return 'https://github.com/dictions/EchoApi';
 	}
