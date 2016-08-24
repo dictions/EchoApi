@@ -4,6 +4,10 @@
 
 This plugin makes it easy to create a JSON API in [Craft](http://buildwithcraft.com). No fluff added, just simple routing.
 
+## Why?
+
+You may need access to Craft specific APIs, but may not need access to Elements saved to Craft's database. One great example use case, and the reason I created this, is to create an API wrapper around [Craft Shopify](https://github.com/davist11/craft-shopify/).
+
 ## Installation
 
 To install Echo API, follow these steps:
