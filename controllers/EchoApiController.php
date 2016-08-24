@@ -27,7 +27,6 @@ class EchoApiController extends BaseController {
 			header("X-EchoApi-Cache: disabled");
 			$response = $this->_callHandler($handler);
 			echo json_encode($response);
-			craft()->cache->set($CACHE_KEY, json_encode($response), $CACHE_DURATION);
 		}
 
 		craft()->end();
